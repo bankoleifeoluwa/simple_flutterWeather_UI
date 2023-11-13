@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class ReuseableCard extends StatelessWidget {
-  double size = 60;
+  // double size = 60;
   final String text;
   final String image;
   final String temp;
@@ -15,15 +15,20 @@ class ReuseableCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      child: Expanded(
+    return SizedBox(
+      width: 150,
+      height: 150,
+      child: Card(
+        elevation: 12,
+        color: Colors.grey[100],
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              width: size,
-              height: size,
+              // width: size,
+              // height: size,
               decoration: BoxDecoration(
                   color: Colors.white, borderRadius: BorderRadius.circular(20)),
             ),

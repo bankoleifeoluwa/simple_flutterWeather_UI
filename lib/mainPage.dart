@@ -35,9 +35,12 @@ class MainPage extends StatelessWidget {
             children: [
               TextFormField(
                 decoration: InputDecoration(
+                  fillColor: Colors.grey[100],
                   prefixIcon: Icon(Icons.location_on_outlined),
                   hintText: "Enter Location Here",
-                  border: OutlineInputBorder(),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.all(Radius.circular(30)),
+                  ),
                 ),
               ),
               SizedBox(
