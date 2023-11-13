@@ -1,6 +1,6 @@
 # weather_ui
 
-A new Flutter project.
+A Flutter Ui, for a weather App.
 
 ## Getting Started
 
