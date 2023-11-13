@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:weather_ui/reuseable_card.dart';
 import 'package:weather_ui/reuseable_text.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+// import 'package:flutter_svg/flutter_svg.dart';
 
 class MainPage extends StatelessWidget {
   const MainPage({super.key});
@@ -17,7 +17,7 @@ class MainPage extends StatelessWidget {
             title: Row(
               children: [
                 Text(
-                  "Simple Weather Ui",
+                  "Wet Weather Ui",
                   style: TextStyle(color: Colors.black),
                 ),
                 Expanded(
